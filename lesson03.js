@@ -9,7 +9,7 @@ let styles = ["Джаз", "Блюз"];
 styles.push("Рок-н-рол");
 console.log(styles);
 
-styles [1] = "Класика";
+styles [parseInt(styles.length /2)] = "Класика";
 console.log(styles);
 
 let firstStyle = styles.shift();
